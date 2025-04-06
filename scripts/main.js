@@ -9,7 +9,7 @@ function pageLoad()
             var currentUser =cognitoApp.auth.getCurrentUser();
 
             if (currentUser) {
-
+                debugger;
                 cognitoApp.auth.getSession();
 
                 currentSession = cognitoApp.auth.signInUserSession;

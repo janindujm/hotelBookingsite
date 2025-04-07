@@ -90,7 +90,7 @@ function setAuthHeader()
           processData: false,
           success: function(response) {
          
-            window.location.href='/hotel/admin.html';
+            window.location.href='/admin.html';
           }
         });    
       });
